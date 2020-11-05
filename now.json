@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "src": "/secret.html",
+      "headers": { "test": "true" },
+      "dest": "/secret.html"
+    },
+        {
+      "src": "/secret.html",
+      "headers": {},
+      "status": 403,
+      "dest": "/secret.html"
+    }
+  ]
+}
